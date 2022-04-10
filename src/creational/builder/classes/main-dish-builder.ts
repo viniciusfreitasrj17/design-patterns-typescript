@@ -16,7 +16,7 @@ export class MainDishBuilder implements MealBuilderProtocol {
     const meat = new Meat('Carne', 20);
     this._meal.add(rice, beans, meat);
 
-    return this;
+    return this; // Method Chain
   }
   makeBeverage(): this {
     const beverage = new Beverage('Bebida', 7);
