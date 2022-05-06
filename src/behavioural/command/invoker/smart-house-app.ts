@@ -1,4 +1,4 @@
-import { SmartHouseCommandProtocol } from './smart-house-command-protocol';
+import { SmartHouseCommandProtocol } from '../protocol/smart-house-command-protocol';
 
 export class SmartHouseApp {
   private commands: { [k: string]: SmartHouseCommandProtocol } = {};
